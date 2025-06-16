@@ -20,7 +20,7 @@ func TestGetAPIKey(t *testing.T) {
 		{name: "Mallformed no keys", input: http.Header{"Authorization": []string{"ApiKey"}}, want: "", errorMsg: "malformed authorization header"},
 		{name: "Mallformed No ApiKey", input: http.Header{"Authorization": []string{"NoApiKey"}}, want: "", errorMsg: "malformed authorization header"},
 		{name: "Good test", input: http.Header{"Authorization": []string{"ApiKey MyKey"}}, want: "MyKey", errorMsg: ""},
-		{name: "BAD TEST", input: http.Header{}, want: "WRONG", errorMsg: ""},
+		//{name: "BAD TEST", input: http.Header{}, want: "WRONG", errorMsg: ""},
 	}
 
 	var output string
