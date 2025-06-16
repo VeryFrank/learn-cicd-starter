@@ -1,4 +1,4 @@
-https://github.com/VeryFrank/learn-cicd-starter/actions/workflows/ci.yml/badge.svg
+![test batch]([IMAGE_URL](https://github.com/VeryFrank/learn-cicd-starter/actions/workflows/ci.yml/badge.svg))
 
 # learn-cicd-starter (Notely)
 
