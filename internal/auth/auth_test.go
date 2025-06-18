@@ -49,7 +49,3 @@ func TestGetAPIKey(t *testing.T) {
 
 	}
 }
-
-func unusedFunction() {
-	//only exists to test ci.yml staticcheck
-}
