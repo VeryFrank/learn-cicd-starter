@@ -18,7 +18,7 @@ jobs:
           cache: true
 
       - name: Run go tests
-        run: go tests ./...
+        run: go test ./...
 
       - name: build app
         run: scripts/buildprod.sh
